@@ -1,7 +1,8 @@
 body {
     font-family: 'Asap', sans-serif;
     background:#eee;
-    width: 100vw;
+    padding: 0;
+    margin: 0;
 }
 
 * {
@@ -37,6 +38,7 @@ a:hover {
 
 .logo a {
     font-size: 20px;
+    border: none;
 }
 /* Mobile */
 .menu {
@@ -91,8 +93,6 @@ a:hover {
     top: -5px;
 }
 
-  
-
 
 .container {
     width: 90%;
@@ -102,14 +102,14 @@ a:hover {
 }
 
 .header {
-    position: fixed;
+    position: sticky;
     top: 0px;
-    margin-left: 4.8rem;
+    
 }
 
 .search {
     padding: 1rem;
-    background: #24212573;
+    background: #ac12f373;
 }
 
 
@@ -117,9 +117,8 @@ a:hover {
 .title {
     font-size: 2em;
     font-weight: bold;
-    border-bottom:3px solid #24212573;
+    border-bottom:3px solid #ac12f373;
     padding-bottom:1rem;
-    text-align: center;
 }
 
 
@@ -150,7 +149,7 @@ a:hover {
     margin-left: auto;
 }
 .content-title--main {
-    border-top: 1px bold  #0d0b0fa8;
+    border-top: 1px bold  #6f0acea8;
     text-align: right;
     font-weight: bold;
     padding: 1rem;
@@ -273,9 +272,9 @@ ol {
 .btn {
     display: inline-block;
 
-    border: 2px solid #25252573;
+    border: 2px solid #ac12f373;
     font-weight: bold;
-    color: #000000;
+    color: #ac12f373;
     border-radius: 10px;
     padding: 16px;
     font-size: 15px;
@@ -283,7 +282,7 @@ ol {
 }
 
 .btn:hover {
-    background-color: #19171bc4;
+    background-color: #6f0acea8;
     color: #fff;
     transition: 300ms;
 }
@@ -293,6 +292,7 @@ ol {
     text-align: center;
     color: #aaa;
 }
+
 @media all and (min-width:468px){
     .menu{
         justify-content: center;
@@ -312,10 +312,7 @@ ol {
 
     a{
         text-decoration: none;
-        padding: 7px 15px;
         background: teal;
-        border: 1px solid #006d6d;
-        border-radius: 50em;
     }
 
     a{
@@ -327,7 +324,6 @@ ol {
     }
 
     a:hover {
-        background: #006d6d;
         border-color: #005959;
     }
 
@@ -341,6 +337,7 @@ ol {
         display: block;
         width: auto;
     }
+    
 
     .toggle{
         display: none;
