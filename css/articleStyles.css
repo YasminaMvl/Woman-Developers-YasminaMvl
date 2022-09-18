@@ -116,7 +116,11 @@ latest-news {
 }
 
 
-
+.p-article {
+    width: 500px;
+    margin-left: 30rem;
+    margin-bottom: 2rem;
+}
 
 
 .article__title {
